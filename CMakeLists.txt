@@ -3,8 +3,8 @@ project(Boost-CMake)
 
 option(BOOST_DISABLE_TESTS "Do not build test targets, even if building standalone" OFF)
 
-set(BOOST_URL "https://boostorg.jfrog.io/artifactory/main/release/1.71.0/source/boost_1_71_0.tar.bz2" CACHE STRING "Boost download URL")
-set(BOOST_URL_SHA256 "d73a8da01e8bf8c7eda40b4c84915071a8c8a0df4a6734537ddde4a8580524ee" CACHE STRING "Boost download URL SHA256 checksum")
+set(BOOST_URL "https://github.com/boostorg/boost/archive/refs/tags/boost-1.58.0.tar.gz" CACHE STRING "Boost download URL")
+set(BOOST_URL_SHA256 "3aa597324978bd7aa5a3d73d65187540793192942c8b299973c5ccf0904b474f" CACHE STRING "Boost download URL SHA256 checksum")
 
 include(FetchContent)
 FetchContent_Declare(
@@ -48,7 +48,6 @@ set(BOOST_LIBS_OPTIONAL
   atomic
   chrono
   container
-  context
   coroutine
   date_time
   exception
