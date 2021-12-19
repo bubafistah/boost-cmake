@@ -52,7 +52,7 @@ set(BOOST_LIBS_OPTIONAL
   #coroutine
   date_time
   exception
-  fiber
+  #fiber
   filesystem
   graph
   iostreams
