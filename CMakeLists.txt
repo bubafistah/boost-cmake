@@ -48,8 +48,8 @@ set(BOOST_LIBS_OPTIONAL
   atomic
   chrono
   container
-  context
-  coroutine
+  #context
+  #coroutine
   date_time
   exception
   fiber
