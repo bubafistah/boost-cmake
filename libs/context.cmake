@@ -10,7 +10,7 @@ if(USE_WINDOWS)
   if(USE_GNUC)
     # MinGW
     enable_language(ASM)
-    set(context_assembler as)
+    set(context_assembler uasm)
   else()
     enable_language(ASM_MASM) 
     set(context_assembler masm)
